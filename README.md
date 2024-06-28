@@ -1,4 +1,4 @@
-# ConcurrentTestWebApp
+# Concurrent Web Server
 
 ## Overview
 
@@ -14,36 +14,17 @@ ConcurrentTestWebApp is a multithreaded web server application written in Java. 
 
 ## Project Structure
 
-ConcurrentTestWebApp/
-│
-├── src/
-│   └── main/
-│       ├── java/
-│       │   └── edu/
-│       │       └── escuelaing/
-│       │           └── arsw/
-│       │               └── MultiThreadedWebServer.java
-│       │                 
-│       └── static/
-│           ├── home.html
-│           ├── busy.txt
-│           └── ... (other resources to test the program)
-│
-├── pom.xml
-└── README.md
+<img width="435" alt="Structure" src="https://github.com/Hajaku12/WebServer/assets/62758651/5a3c7852-dfc7-4548-93f1-873c230d2923">
+
 
 ## Prerequisites
 
 - Java JDK (version specified in `pom.xml`)
 - Apache Maven (version specified in `pom.xml`)
 
-To check your Java version:
+To check your Java version: `java -version`
 
-'java -version'
-
-To check your Maven version:
-
-'mvn -version'
+To check your Maven version: `mvn -version`
 
 ## Installation
 
@@ -51,15 +32,11 @@ To check your Maven version:
 
 https://github.com/Hajaku12/WebServer.git
 
-2. Build the project:
-
-'mvn clean package'
+2. Build the project: `mvn clean package`
 
 ## Usage
 
-1. Start the server:
-
-'mvn exec:java -Dexec.mainClass=edu.escuelaing.arsw.MultiThreadedWebServer'
+1. Start the server: `mvn exec:java -Dexec.mainClass=edu.escuelaing.arsw.MultiThreadedWebServer`
 
 
 2. Access the web server:
@@ -92,17 +69,35 @@ https://github.com/Hajaku12/WebServer.git
 
 ## Acceptance Test
 
-- Error when the max limit is passed. 
+- Error when the max limit is passed.
 
-- Reading file with jpg extension. 
+  <img width="1447" alt="image1" src="https://github.com/Hajaku12/WebServer/assets/62758651/0aadbf68-6f1c-4e66-85fd-9ad4ed551333">
 
-- Reading file with css extension.  
+
+- Reading file with jpg extension.
+
+  <img width="967" alt="image2" src="https://github.com/Hajaku12/WebServer/assets/62758651/53e74f6d-f5c9-428d-a405-bb04c2762051">
+
+
+- Reading file with css extension.
+
+  <img width="1057" alt="image3" src="https://github.com/Hajaku12/WebServer/assets/62758651/7a2b29c5-16ab-4eff-a4fe-57af07ec3e48">
 
 - Reading file with html extension.
+  
+  <img width="1065" alt="image5" src="https://github.com/Hajaku12/WebServer/assets/62758651/e34ebaa8-a42e-4699-ad24-d664d4b4c3f7">
 
 - Reading file with png extension.
 
+  <img width="1056" alt="image6" src="https://github.com/Hajaku12/WebServer/assets/62758651/c296663d-1306-4459-9a58-db1028776c7e">
+
 - Reading file with txt extension.
+
+  <img width="800" alt="image7" src="https://github.com/Hajaku12/WebServer/assets/62758651/6528a3f4-3fd2-4221-902d-e5043aa35503">
+
+- Reading file with js extensions.
+
+  <img width="783" alt="image4" src="https://github.com/Hajaku12/WebServer/assets/62758651/e049099f-e182-4a4a-9406-defec7d50dc9">
 
 
 ## Deployment Notes
