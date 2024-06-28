@@ -2,7 +2,7 @@
 
 ## Overview
 
-ConcurrentTestWebApp is a multithreaded web server application written in Java. It serves HTML files and Base64-encoded image files, capable of handling multiple client connections concurrently. The server limits the number of concurrent clients and provides a custom response when this limit is exceeded.
+This is a multithreaded web server application written in Java. It serves HTML files and Base64-encoded image files, capable of handling multiple client connections concurrently. The server limits the number of concurrent clients and provides a custom response when this limit is exceeded.
 
 ## Features
 
