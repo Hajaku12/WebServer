@@ -115,7 +115,7 @@ https://github.com/Hajaku12/WebServer.git
 
 ## Authors
 
-- Your Name Hann Jang
+- Hann Jang
 
 
 
